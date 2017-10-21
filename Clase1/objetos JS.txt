@@ -1,0 +1,39 @@
+var persona = {
+	nombre: 'Nico',
+	apellido: 'Senn',
+	edad: 27,
+	mayorEdad: true
+}
+
+var nombre = 'clara'
+
+var apellido = 'perez'
+
+var edad = 12
+
+//Varialbes
+console.log('Hola ' + nombre + ' ' + apellido + ' ' + edad + ' anios')
+
+
+//Objeto
+console.log(persona)
+
+console.log('Hola ' + persona.nombre + ' ' + persona.apellido + ' ' + persona.edad + ' anios ' + persona.mayorEdad)
+
+objeto tipico en Js, es el objeto persona
+
+algunas funciones
+
+var numero
+
+numero = prompt('Ingrese un numero: ')
+
+numeroParseado = parseInt(numero, 10)
+
+var suma = numero + numero
+
+alert('El numero elegido es: ' + suma)
+
+
+
+
